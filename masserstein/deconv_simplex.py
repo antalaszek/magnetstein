@@ -835,4 +835,10 @@ Please check the deconvolution results and consider reporting this warning to th
         queries_protons = [query_spec.protons for query_spec in query]
         rescaled_proportions = [prop/prot for prop, prot in zip(proportions, queries_protons)]
         rescaled_proportions = [prop/sum(rescaled_proportions) for prop in rescaled_proportions]
-        return {'proportions': rescaled_proportions, 'Wasserstein distance': objective_function}
+        return {
+              'proportions': rescaled_proportions, 
+                'Wasserstein distance': objective_function,
+                'noise': vortex or None,
+                'noise_in_components': vortex_th or None,
+                'proportion_of_noise_in_components': p0_prime or None, 'common_horizontal_axis': common_horizontal_axis or None,
+                }
