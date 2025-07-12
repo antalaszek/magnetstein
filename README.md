@@ -1,4 +1,5 @@
 # Magnetstein
+![main_workflow_final](https://github.com/BDomzal/magnetstein/assets/65540968/f3c35cfb-e996-4f2a-b01b-3007a7676bd0)
 
 This repository contains software tools which allow to compare nuclear magnetic resonance (NMR) spectra and estimate proportions of components in mixture using the Wasserstein distance. 
 
@@ -57,5 +58,6 @@ Powered by [© Gurobi.](https://www.gurobi.com/)
 
 # Citing 
 
-Article about Magnetstein is in preparation. If you use tools from this package, please include link to this repository in citation.
+If you use tools from this package, please cite:
 
+Domżał, B., Nawrocka, E.K., Gołowicz, D., Ciach, M.A., Miasojedow, B., Kazimierczuk, K., & Gambin, A. (2023). Magnetstein: An Open-Source Tool for Quantitative NMR Mixture Analysis Robust to Low Resolution, Distorted Lineshapes, and Peak Shifts. _Analytical Chemistry_. DOI: [10.1021/acs.analchem.3c03594](https://doi.org/10.1021/acs.analchem.3c03594).
